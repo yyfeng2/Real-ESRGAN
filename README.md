@@ -86,8 +86,8 @@ Other recommended projects:<br>
 
 ## 🔧 Dependencies and Installation
 
-- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 1.7](https://pytorch.org/)
+- Python == 3.10.6 (推荐使用[Anaconda](https://www.anaconda.com/download/#linux)或[Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch == 2.8.0+cu129](https://pytorch.org/)
 
 ### Installation
 
@@ -101,8 +101,10 @@ Other recommended projects:<br>
 1. Install dependent packages
 
     ```bash
+
     # Install basicsr - https://github.com/xinntao/BasicSR
     # We use BasicSR for both training and inference
+    pip install xformers  torch   torchaudio  torchvision  --index-url https://download.pytorch.org/whl/cu129
     pip install basicsr
     # facexlib and gfpgan are for face enhancement
     pip install facexlib

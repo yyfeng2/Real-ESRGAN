@@ -163,8 +163,8 @@ Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 
 ## :wrench: 依赖以及安装
 
-- Python >= 3.7 (推荐使用[Anaconda](https://www.anaconda.com/download/#linux)或[Miniconda](https://docs.conda.io/en/latest/miniconda.html))
-- [PyTorch >= 1.7](https://pytorch.org/)
+- Python == 3.10.6 (推荐使用[Anaconda](https://www.anaconda.com/download/#linux)或[Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- [PyTorch == 2.8.0+cu129](https://pytorch.org/)
 
 #### 安装
 
@@ -181,6 +181,7 @@ Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
     # 安装 basicsr - https://github.com/xinntao/BasicSR
     # 我们使用BasicSR来训练以及推断
     pip install basicsr
+    pip install xformers  torch   torchaudio  torchvision  --index-url https://download.pytorch.org/whl/cu129
     # facexlib和gfpgan是用来增强人脸的
     pip install facexlib
     pip install gfpgan
