@@ -94,7 +94,7 @@ Other recommended projects:<br>
 1. Clone repo
 
     ```bash
-    git clone https://github.com/xinntao/Real-ESRGAN.git
+    git clone https://github.com/yyfeng2/Real-ESRGAN.git
     cd Real-ESRGAN
     ```
 

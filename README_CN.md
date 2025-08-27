@@ -171,7 +171,7 @@ Usage: realesrgan-ncnn-vulkan.exe -i infile -o outfile [options]...
 1. 把项目克隆到本地
 
     ```bash
-    git clone https://github.com/xinntao/Real-ESRGAN.git
+    git clone https://github.com/yyfeng2/Real-ESRGAN.git
     cd Real-ESRGAN
     ```
 
